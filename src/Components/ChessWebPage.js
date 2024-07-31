@@ -61,20 +61,22 @@ function ChessWebPage() {
                 <h2>Main Chess Interface</h2>
                 <p>After signing in successfully, users are directed to the main chess web page. The interface prominently features a responsive chessboard powered by real-time updates facilitated through Socket.IO and Node.js. User authentication status is maintained using React's state management or Redux.</p>
             </section>
-            <img src={Welcome} alt='web-img here' className='image image-main' />
-            <img src={homepage} alt='web-img here' className='image image-main' />
 
+            <div className='image-row'>
+                <img src={Welcome} alt='Welcome' className='image' />
+                <img src={homepage} alt='Homepage' className='image' />
+            </div>
 
             <section className='match-details'>
                 <h2>View Match Details</h2>
                 <p>To provide a more detailed view of each match, our application features a modal window that displays the match data. The modal content is populated dynamically using data from the database ensuring that the information is accurate and up-to-date.</p>
                 <ul>
-                    <li><strong>Player Profile:</strong> The name ,email and password of the user with function which can be edit or delete the account </li>
-                    <img src={profile} alt='web-img here' className='image image-main' />
-                    <li><strong>Player Stats:</strong> It shows the player game ratio of wins ,loses, and draws.</li>
-                    <img src={pstats} alt='web-img here' className='image image-main' />
+                    <li><strong>Player Profile:</strong> The name, email, and password of the user with functions to edit or delete the account </li>
+                    <img src={profile} alt='Player Profile' className='image' />
+                    <li><strong>Player Stats:</strong> Displays the player's game ratio of wins, losses, and draws.</li>
+                    <img src={pstats} alt='Player Stats' className='image' />
                     <li><strong>Description:</strong> A brief note about the match as entered by the user in the form.</li>
-                    <img src={gdetail} alt='web-img here' className='image image-main' />
+                    <img src={gdetail} alt='Match Details' className='image' />
                 </ul>
             </section>
 
@@ -82,27 +84,29 @@ function ChessWebPage() {
                 <h2>Form Submission</h2>
                 <p>Our application utilizes an HTML form to collect game data from users, submitting it to the server via a POST request. The form accepts inputs like Player One, Player Two, Winner, Description, and Date. The server processes and stores this data securely.</p>
             </section>
-            <img src={formp} alt='web-img here' className='image image-main' />
+            <img src={formp} alt='Form Submission' className='image' />
 
             <section className='data-visualization'>
                 <h2>Data Visualization</h2>
                 <p>The processed data is displayed in the ChessMain section featuring tables that showcase player statistics including Wins, Losses, Draws, Total Matches, and Played as White/Black.</p>
             </section>
-            <img src={T2} alt='web-img here' className='image image-main' />
-            <img src={T3} alt='web-img here' className='image image-main' />
+            <div className='image-row'>
+                <img src={T2} alt='Data Visualization 1' className='image' />
+                <img src={T3} alt='Data Visualization 2' className='image' />
+            </div>
+
             <section className='game-modes'>
                 <h2>Game Modes</h2>
                 <p>Our application offers two game modes:</p>
                 <ul>
                     <li><strong>Online Mode:</strong> Enables players connected to the same network to play against each other remotely using a room PIN generated with UUID and Socket.IO for real-time communication.</li>
-                    <img src={Img10} alt='web-img here' className='image image-main' />
+                    <img src={Img10} alt='Online Mode' className='image' />
                     <li><strong>Over-the-Board Game:</strong> Allows players to play locally on a single device using both the white and black sides of the chessboard.</li>
-                    <img src={Img9} alt='web-img here' className='image image-main' />
+                    <img src={Img9} alt='Over-the-Board Game' className='image' />
                 </ul>
             </section>
         </div>
     );
 }
-// }
 
 export default ChessWebPage;

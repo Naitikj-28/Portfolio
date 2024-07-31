@@ -119,3 +119,18 @@
 .right {
     right: 0;
 }
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.image-row .image {
+    flex: 1 1 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+    height: auto;
+    object-fit: cover;
+}
