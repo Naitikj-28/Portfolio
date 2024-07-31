@@ -1,0 +1,57 @@
+.Educ {
+    background: linear-gradient(to right, #090909, #8c8c8c);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 7rem;
+    text-align: center;
+}
+
+.Educ h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #f9f9f9;
+}
+
+.Educ-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.Educ-section {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px;
+    min-width: 250px;
+    text-align: left;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Educ-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.Educ-section p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.Educ-section p strong {
+    color: #ff6347;
+}
+
+
+.Educ-section:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 15px 16px #fd2600;
+}
