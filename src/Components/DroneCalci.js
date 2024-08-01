@@ -57,8 +57,8 @@ function DroneCalci() {
         <h2>Features</h2>
         <ul>
           <li>
-            <strong>Backend SQL Integration:</strong>
-            <p>We're connecting the platform to a backend SQL database to store and manage pricing data. This will enable real-time updates of survey prices and DGPS rates through a secure and efficient database system.</p>
+            <strong>Backend Node.js Integration:</strong>
+            <p>We're connecting the platform to a backend Node.js database to store and manage pricing data. This will enable real-time updates of survey prices and DGPS rates through a secure and efficient database system.</p>
           </li>
           <li>
             <strong>Dynamic Pricing Form:</strong>
