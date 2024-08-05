@@ -24,6 +24,11 @@ const Projects = () => {
                     <button className="btn" onClick={() => handleClick('/Newsmon')}>View Project</button>
                 </div>
                 <div className="project-card">
+                    <h3>Cartographic Detail Maps</h3>
+                    <p>An interactive chess game with features like move validation, user vs. computer & user vs. user play, and game details.</p>
+                    <button className="btn" onClick={() => handleClick('/CartoDM')}>View Project</button>
+                </div>
+                <div className="project-card">
                     <h3>Chess Web Page</h3>
                     <p>An interactive chess game with features like move validation, user vs. computer & user vs. user play, and game details.</p>
                     <button className="btn" onClick={() => handleClick('/ChessWebPage')}>View Project</button>

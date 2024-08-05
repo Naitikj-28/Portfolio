@@ -12,6 +12,7 @@ import Newsm from './Components/Newsmon';
 import DroneCalci from './Components/DroneCalci';
 import About from './Components/About';
 import ChessWebPage from './Components/ChessWebPage';
+import CartoDm from './Components/CartoDm';
 import './App.css';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/DroneCalci" element={<DroneCalci />} />
         <Route path="/Newsmon" element={<Newsm />} />
         <Route path="/ChessWebPage" element={<ChessWebPage />} />
+        <Route path="/CartoDM" element={<CartoDm />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>

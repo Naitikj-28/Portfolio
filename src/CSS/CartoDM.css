@@ -1,0 +1,92 @@
+.carto-dm {
+    margin-top: 4%;
+    padding: 2rem;
+    font-family: Arial, 'fantasy';
+    background-color: #f9f9f9;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.overview,
+.interactive-map,
+.data-visualization,
+.features,
+.future-enhancements {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.overview h2,
+.interactive-map h2,
+.data-visualization h2,
+.features h2,
+.future-enhancements h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+.features ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.features li {
+    margin-bottom: 0.5rem;
+}
+
+.features li strong {
+    font-weight: bold;
+}
+
+.interactive-map {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+}
+
+.interactive-map h2,
+.interactive-map p {
+    margin-bottom: 1rem;
+}
+
+.image-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.image-container img {
+    flex: 1 1 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+    height: auto;
+    object-fit: cover;
+}
+
+.data-visualization p {
+    font-size: 1rem;
+    color: #444;
+}
+
+.image-main {
+    max-width: 60%;
+}
+
+.image {
+    display: block;
+    margin: 1rem auto;
+    max-width: 80%;
+    height: auto;
+}
