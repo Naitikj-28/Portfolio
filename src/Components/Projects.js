@@ -25,7 +25,7 @@ const Projects = () => {
                 </div>
                 <div className="project-card">
                     <h3>Cartographic Detail Maps</h3>
-                    <p>An interactive chess game with features like move validation, user vs. computer & user vs. user play, and game details.</p>
+                    <p>Explore geographical data with interactive maps, providing detailed visualizations, layer control, and dynamic data insights.</p>
                     <button className="btn" onClick={() => handleClick('/CartoDM')}>View Project</button>
                 </div>
                 <div className="project-card">
